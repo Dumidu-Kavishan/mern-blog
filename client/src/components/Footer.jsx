@@ -50,8 +50,6 @@ export default function FooterCom() {
                         </Footer.Link>
                     </Footer.LinkGroup>
                     </div>
-
-                     
                 </div>
             </div>
             <Footer.Divider/>
