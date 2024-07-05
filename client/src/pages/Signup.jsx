@@ -16,7 +16,7 @@ export default function Signup() {
     e.preventDefault();
 
     if(!formData.username || !formData.email || !formData.password){
-      setErrorMessage('Please fill all the fields');
+      return setErrorMessage('Please fill all the fields');
     }
 
     try{
