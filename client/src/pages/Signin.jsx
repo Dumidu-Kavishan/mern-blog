@@ -15,6 +15,9 @@ export default function SignIn() {
   const handleChange = (e) => {
     setFormData({...formData , [e.target.id]: e.target.value.trim()});
   };
+
+ 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -91,7 +94,8 @@ export default function SignIn() {
                 Sign Up
               </Link>
            </div>
-           {errorMessage && (
+           {
+              errorMessage && (
                 <Alert className='mt-5' color='failure'>
                   {errorMessage}
                 </Alert>  
